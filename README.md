@@ -1,5 +1,51 @@
 # TFE-PerfumeryApp-Showcase
+# FormuLab - Advanced Perfumery Formulation System
+
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+
+**FormuLab** is a native Android mobile application aimed at optimizing the workflow of independent perfumers and formulation students. The system automates dilution calculations, manages raw material databases, and allows for the structured design of olfactory formulas under high security standards.
+
+> **Intellectual Property Notice:** This repository serves exclusively as a technical portfolio (Showcase). The original source code is proprietary and kept in a closed environment, as the software is currently in a pre-commercialization phase. I am fully available for architecture reviews and code demonstrations during recruitment processes or technical interviews.
+
+---
+
+## Core Features
+
+* **Raw Material Management:** Local database engine for efficient querying of hundreds of ingredients, indexed by CAS number, olfactory family, and regulatory restrictions (IFRA).
+* **Algorithmic Dilution Engine:** Precise calculation module for determining solute/solvent proportions when reducing concentrations.
+* **Structured Composer:** Formula design tool based on the traditional olfactory pyramid (top, heart, and base notes) with automatic calculation of final concentrations (EDC, EDT, EDP).
+* **Biometric Authentication:** BiometricPrompt API integration to restrict access to the private formulas section using device hardware (fingerprint/facial recognition).
+* **Cryptography (E2EE):** Implementation of end-to-end encryption to guarantee the industrial secrecy of the formulas stored in the cloud.
+
+## Architecture and Tech Stack
+
+The project has been developed applying **Clean Architecture** principles and the **MVVM (Model-View-ViewModel)** design pattern recommended in official Android guidelines.
+
+* **Native Development:** Kotlin (SDK 28+).
+* **User Interface (UI):** Jetpack Compose (Declarative UI).
+* **Data Persistence (Local):** Room (SQLite) implementing initial load deserialization with GSON.
+* **Data Persistence (Cloud):** Cloud Firestore (NoSQL document-oriented database).
+* **Identity Management:** Firebase Authentication integrated with Google Single Sign-On (SSO).
+* **Concurrency and Asynchrony:** Kotlin Coroutines and reactive flows (StateFlow/Flow).
+
+## Visual and Technical Documentation
+
+
+![Diagrama de Base de Datos](umlLocal.png)
+![Diagrama General App](AppDiagram.png)
+
+
+
+## License and Copyright
+
+**Copyright © 2026 Elida María Diez Gómez. All rights reserved.**
+
+This repository, including its documentation, design schemas (UI/UX), data model, and described architecture, is not distributed under any open-source license. The reproduction, distribution, modification, copying, or commercial use of any element presented in this project without the express, prior, and written authorization of the author is strictly prohibited.
 Showcase TFE: App Android nativa (Kotlin + Compose) para formulación en perfumería. Arquitectura MVVM, Room, Firebase y Seguridad Biométrica E2EE.
+
+_____
 
 # FormuLab - Sistema Avanzado de Formulación de Perfumería
 
