@@ -11,7 +11,6 @@ Showcase TFE: App Android nativa (Kotlin + Compose) para formulación en perfume
 
 > **Aviso de Propiedad Intelectual:** El presente repositorio funciona exclusivamente como un portfolio técnico (Showcase). El código fuente original es de carácter privativo y se mantiene en un entorno cerrado, dado que el software se encuentra en fase de pre-comercialización. Estoy a disposición para realizar revisiones de arquitectura y demostraciones de código durante procesos de selección o entrevistas técnicas.
 
-
 ## Funcionalidades Principales
 
 * **Gestión de Materias Primas:** Motor de base de datos local para la consulta eficiente de cientos de ingredientes, indexados por código CAS, familia olfativa y restricciones regulatorias (IFRA).
@@ -33,9 +32,7 @@ El proyecto ha sido desarrollado aplicando los principios de **Clean Architectur
 
 ## Documentación Técnica y Visual
 
-*(Añadir aquí los diagramas UML, diagramas de flujo y mockups de la interfaz)*
 
----
 
 ## Licencia y Derechos de Autor
 
