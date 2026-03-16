@@ -32,7 +32,8 @@ El proyecto ha sido desarrollado aplicando los principios de **Clean Architectur
 
 ## Documentación Técnica y Visual
 
-
+![Diagrama de Base de Datos](umlLocal.png)
+![Diagrama General App](AppDiagram.png)
 
 ## Licencia y Derechos de Autor
 
